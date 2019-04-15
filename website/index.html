@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+
+	<title>Compare Tax Free</title>
+
+	<script type="text/javascript" language="javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="Table.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu+Condensed" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="pagestyle.css">
+
+</head>
+<body>
+
+	<div class="header">
+		<a href="#default" class="name">Compare Tax Free</a>
+		<div class="header-right">
+			<a class="active" href="#home">Home</a>
+			<a href="#contact" >Kontakt</a>
+			<a href = "about.html">Om</a>
+		</div>
+	</div>
+
+	<h1 class = "title" >Compare tax free</h1>
+
+	<div id = "travel_info">
+		<h2>StartPosition</h2>
+		<input id = "post_code" type="number" placeholder="Postnummer">
+		<button type="button" onclick = "findDist()"></button>
+		<h3 id = "dist_info"></h3>
+		<table id = "dist_table"></table>
+		<div id = "travel_price"></div>
+	</div>
+
+	<div id = "calculate_price">
+		<h2>See your price</h2>
+		<button onclick = "CalculateTotal()">Calculate Price</button>
+		<div id = "calculated_price">
+			<h3 id = "danish_price">Dansk Pris: 0</h2>
+				<h3 id = "border_price">Border Pris: 0</h2>
+				</div>
+			</div>
+
+			<div id = "list_of_products">
+				<h2>Products</h2>
+				<input type="text" id = "search_input" onkeyup="SearchTable()" placeholder = "Search for product">
+
+				<table id = "price_table">
+					<div class="item">
+						<h2 class = "item_title">Carlsberg</h2>
+						<h3 class = "item_danish_price">100 kroner</h3>
+						<h3 class = "item_border_price">120 kroner</h3>
+						<button class = "item_button" type="button">-</button>
+						<input class = "item_input" type="number" name="" value="0">
+						<button class ="item_button" type="button">+</button>
+						<button type="button">Add to Cart</button>
+					</div>
+				</table>
+
+			</div>
+
+
+
+		</body>

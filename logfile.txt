@@ -1,0 +1,126 @@
+commit 62d75e38d35ae00569b1633826482fb1292b8019
+Author: Unknown <sorenwh@gmail.com>
+Date:   Fri Aug 3 02:57:48 2018 +0200
+
+    Auto stash before merge of "master" and "origin/master"
+
+commit b11e76794691275dd70a1e5b8a97085ad4af0fdd
+Author: GustavLang <gustavmoesmand@gmail.com>
+Date:   Fri Aug 3 02:07:01 2018 +0200
+
+    Auto stash before merge of "master" and "origin/master"
+
+commit 78cf6f40553bbac2042f9390046c3c75eeec630b
+Author: Unknown <sorenwh@gmail.com>
+Date:   Fri Aug 3 00:50:32 2018 +0200
+
+    Ordnet JSON-filens udseende
+
+commit 457d52662bf4da85442778e173611164a0309cc8
+Author: Unknown <sorenwh@gmail.com>
+Date:   Fri Aug 3 00:48:46 2018 +0200
+
+    ENDELIGT FÅET SKREVET TIL JSON
+
+commit 2f132bb827142f92fc1e6b42a73796216a966720
+Merge: 1e065a6 2f8bbcd
+Author: Unknown <sorenwh@gmail.com>
+Date:   Fri Aug 3 00:35:28 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 1e065a63297c243ac671e67a8c5e13ca8b4493fb
+Author: Unknown <sorenwh@gmail.com>
+Date:   Fri Aug 3 00:35:15 2018 +0200
+
+    Igang med JSON
+
+commit 2f8bbcda8f305c58f7646a2d01747b8ac0ffb949
+Merge: 6edebd2 0225f39
+Author: GustavLang <gustavmoesmand@gmail.com>
+Date:   Fri Aug 3 00:35:12 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 6edebd212dae13b69a8b54a6493e50b527bee414
+Author: GustavLang <gustavmoesmand@gmail.com>
+Date:   Fri Aug 3 00:31:51 2018 +0200
+
+    TestOmDetVirker
+
+commit 0225f39a20cf0ce0d0d13a95b4cd6f6aed0f6c49
+Author: Unknown <sorenwh@gmail.com>
+Date:   Thu Aug 2 23:55:52 2018 +0200
+
+    Fortsætter string-ændringer
+
+commit 53bde68f8f685ca6ad3e832f1c474635b82c6b12
+Author: GustavLang <gustavmoesmand@gmail.com>
+Date:   Thu Aug 2 23:18:11 2018 +0200
+
+    JsonFormatEx
+
+commit d56cfd19c9b690541b617b336684be6d8ab9d6a6
+Author: Unknown <sorenwh@gmail.com>
+Date:   Thu Aug 2 22:54:15 2018 +0200
+
+    Laver scraperen med selenium og gemmer resultatet pænt
+
+commit 607e3025dddfb07393cc5ad1b5f61a416f277098
+Author: GustavLang <gustavmoesmand@gmail.com>
+Date:   Thu Aug 2 22:52:20 2018 +0200
+
+    Added divisions and <ul></ul>
+
+commit a75d20d7f2da954619cda8e584237732f6ea74a2
+Author: GustavLang <gustavmoesmand@gmail.com>
+Date:   Thu Aug 2 21:41:10 2018 +0200
+
+    CSS File made, and some html code
+
+commit 4ebbdc768ab6fb5e45b2bec4d8f0be0ccacd2849
+Merge: 85ba260 68d2e17
+Author: GustavLang <gustavmoesmand@gmail.com>
+Date:   Thu Aug 2 19:32:47 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 85ba2604de92d4bae3ef5538686ef1f2be7365e1
+Author: GustavLang <gustavmoesmand@gmail.com>
+Date:   Thu Aug 2 19:32:38 2018 +0200
+
+    Index and stylesheet added
+    
+    Added under the folder website
+
+commit 68d2e1767306e2abbe5a12543aa38de6b0e8e608
+Author: Unknown <sorenwh@gmail.com>
+Date:   Thu Aug 2 19:31:33 2018 +0200
+
+    Pyscraper oprettes
+
+commit 693286aeb75bd8b10d2ca5d6147cde43c476e676
+Author: GustavLang <gustavmoesmand@gmail.com>
+Date:   Thu Aug 2 16:58:40 2018 +0200
+
+    Auto stash before merge of "master" and "origin/master"
+
+commit 64bdc54176c77a0d531b04f99c2ec26a8600e311
+Author: Unknown <sorenwh@gmail.com>
+Date:   Thu Aug 2 16:47:15 2018 +0200
+
+    Opretter html-doku til at teste JS-POST
+
+commit 726d9a2a06df50df0e47998004a3dde4c2e16135
+Author: Unknown <gustavmoesmand@gmail.com>
+Date:   Thu Aug 2 15:58:35 2018 +0200
+
+    Gammel kode er kommenteret, prøver noget nyut
+
+commit 81b0325cc475fdb075468f11dadbf7a69e056abe
+Author: GustavLang <duztdmon@gmail.com>
+Date:   Thu Aug 2 15:01:37 2018 +0200
+
+    Scrape upload test
+    
+    Scraperen skal åbne hjemmesiden og lukke den igen. Går muligvis så hurtigt, at jeg ikke kan se hjemmesiden bliver åbnet

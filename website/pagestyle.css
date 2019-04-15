@@ -1,0 +1,22 @@
+.inputItem {
+  min-width: 30px;
+  max-width: 30px;
+}
+
+.body {
+
+}
+
+.title{
+  font-family: 'Lobster', cursive;
+}
+
+.item{
+  outline-color: black;
+  outline-style: dotted;
+  width: 150px;
+  align-content: center;
+  height: 150px;
+  font-size: 10px;
+  font-family: 'Ubuntu Condensed'
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Tuborg Grøn Pilsner Øl 4,6%\n",
+    "price": "Pris ved 1 ramme: 69,95 DKK"
+  },
+  {
+    "title": "Carlsberg 4,6%\n",
+    "price": "Pris ved 1 ramme: 69,95 DKK"
+  },
+  {
+    "title": "Tuborg Classic Pilsner 4,6%\n",
+    "price": "Pris ved 1 ramme: 69,95 DKK"
+  },
+  {
+    "title": "Tuborg Grøn Pilsner Øl 4,6%\n",
+    "price": "Pris ved 1 ramme: 69,95 DKK"
+  },
+  {
+    "title": "Carlsberg 4,6%\n",
+    "price": "Pris ved 1 ramme: 69,95 DKK"
+  },
+  {
+    "title": "Harboe Bear Beer Xtra Strong 12%\n",
+    "price": "Pris ved 1 ramme: 69,95 DKK"
+  },
+  {
+    "title": "Carlsberg 5,0%\n",
+    "price": "Pris ved 1 ramme: 99,95 DKK"
+  },
+  {
+    "title": "Carlsberg Brewmasters American Pale Ale 4,6%\n",
+    "price": "Pris ved 1 ramme: 109,95 DKK"
+  },
+  {
+    "title": "Carlsberg Brewmasters India Pale Ale 5,2%\n",
+    "price": "Pris ved 1 ramme: 109,95 DKK"
+  },
+  {
+    "title": "Carlsberg Carls Special 4,4%\n",
+    "price": "Pris ved 1 ramme: 69,95 DKK"
+  },
+  {
+    "title": "Carlsberg Elephant 7,2%\n",
+    "price": "Pris ved 1 ramme: 99,95 DKK"
+  },
+  {
+    "title": "Carlsberg Premium Pilsner Sort Guld 5,8%\n",
+    "price": "Pris ved 1 ramme: 79,95 DKK"
+  },
+  {
+    "title": "Faxe Premium Øl 4,6%\n",
+    "price": "Pris ved 1 ramme: 59,95 DKK"
+  },
+  {
+    "title": "Giraf Gold 5,6%\n",
+    "price": "Pris ved 1 ramme: 59,95 DKK"
+  },
+  {
+    "title": "Harboe Bear Beer Strong 7,7%\n",
+    "price": "Pris ved 1 ramme: 69,95 DKK"
+  },
+  {
+    "title": "Harboe Classic 4,6%\n",
+    "price": "Pris ved 1 ramme: 49,95 DKK"
+  },
+  {
+    "title": "Harboe Luxury Beer Gold 5,9%\n",
+    "price": "Pris ved 1 ramme: 59,95 DKK"
+  },
+  {
+    "title": "Harboe Premium Pilsner 4,6%\n",
+    "price": "Pris ved 1 ramme: 49,95 DKK"
+  },
+  {
+    "title": "Royal Classic 4,6%\n",
+    "price": "Pris ved 1 ramme: 59,95 DKK"
+  },
+  {
+    "title": "Royal English Ale 4,6%\n",
+    "price": "Pris ved 1 ramme: 59,95 DKK"
+  },
+  {
+    "title": "Royal Export 5,8%\n",
+    "price": "Pris ved 1 ramme: 59,95 DKK"
+  },
+  {
+    "title": "Royal Økologisk Pilsner 4,8%\n",
+    "price": "Pris ved 1 ramme: 49,95 DKK"
+  },
+  {
+    "title": "Royal Pilsner 4,6%\n",
+    "price": "Pris ved 1 ramme: 59,95 DKK"
+  },
+  {
+    "title": "Royal Red Lager 4,6%\n",
+    "price": "Pris ved 1 ramme: 59,95 DKK"
+  },
+  {
+    "title": "Slots Classic 4,6%\n",
+    "price": "Pris ved 1 ramme: 49,95 DKK"
+  },
+  {
+    "title": "Slots Guld 5,9%\n",
+    "price": "Pris ved 1 ramme: 59,95 DKK"
+  },
+  {
+    "title": "Thor Blå Thor 6,0%\n",
+    "price": "Pris ved 1 ramme: 59,95 DKK"
+  },
+  {
+    "title": "Tuborg Classic Pilsner 4,6%\n",
+    "price": "Pris ved 1 ramme: 69,95 DKK"
+  },
+  {
+    "title": "Tuborg Green 4,6%\n",
+    "price": "Pris ved 1 ramme: 99,95 DKK"
+  },
+  {
+    "title": "Tuborg Guld 5,6%\n",
+    "price": "Pris ved 1 ramme: 79,95 DKK"
+  },
+  {
+    "title": "Tuborg Rå Ufiltreret Økologisk Pilsner 4,5%\n",
+    "price": "Pris ved 1 ramme: 79,95 DKK"
+  },
+  {
+    "title": "Carlsberg 1883 4,6%\n",
+    "price": "Pris ved 1 ramme: 79,95 DKK"
+  },
+  {
+    "title": "Slots Pilsner 4,6% 33 cl\n",
+    "price": "Pris ved 1 ramme: 49,95 DKK"
+  }
+]

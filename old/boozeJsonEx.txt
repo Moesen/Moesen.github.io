@@ -1,0 +1,21 @@
+{"beer": [
+  {
+    "title": "title1 \n",
+    "price": "price1"
+  },
+  {
+    "title": "title2 \n",
+    "price": "price2"
+  }
+],
+"wine": [
+  {
+    "title": "title1 \n",
+    "price": "price1"
+  },
+  {
+    "title": "title2 \n",
+    "price": "price2"
+  }
+]
+}
