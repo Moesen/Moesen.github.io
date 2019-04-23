@@ -25,30 +25,32 @@ function buildItem(item, counter){
 
 	var buildString = "<div class = 'item' id = item_" + counter + ">";
 	buildString += buildItemTitle(title, counter);
+	buildString += "<div class = 'price_container'>";
 	buildString += buildItemDanPrice(danPrice, counter);
 	buildString += buildItemBorPrice(borPrice, counter);
+	buildString += "</div>";
 	buildString += buildItemField(counter)
 	buildString += "</div>";
 	return buildString;
 }
 
 function buildItemTitle(title, counter){
-	return "<h2 class = 'item_title' id = 'title_" + counter + "'>" + title + "</h2>"
+	return "<div class = 'title_container'><h2 class = 'item_title' id = 'title_" + counter + "'>" + title + "</h2></div>"
 }
 
 function buildItemDanPrice(price, counter){
-	return "<h3 class = 'item_danish_price' id = 'dan" + counter + "'> "+price+" kr,-</h3>"
+	return "<h3 class = 'item_danish_price' id = 'dan" + counter + "'> Danmark: "+price+" kr,-</h3>"
 }
 
 function buildItemBorPrice(price, counter){
-	return "<h3 class = 'item_border_price' id = 'bor_"+counter+"'>"+price+" kr,-</h3>"
+	return "<h3 class = 'item_border_price' id = 'bor_"+counter+"'> Border: "+price+" kr,-</h3>"
 }
 
 function buildItemField(counter){
-	return "<button class = 'item_button' type='button' onclick = 'addToInput("+counter+")'>-</button>" +
+	return "<div class = 'input_container'><button class = 'item_button' type='button' onclick = 'addToInput("+counter+")'>-</button>" +
 	"<input class = 'item_input' type='number' value='0' id = 'input_"+counter+"'>" +
 	"<button class ='item_button' type='button' oncclick = 'subtractFromInput("+counter+")'>+</button>" +
-	"<button type='button' onclick = 'addItemToCart("+counter+")'>Add to Cart</button>"
+	"<button type='button' onclick = 'addItemToCart("+counter+")'>Add to Cart</button></div>"
 }
 
 //Field
@@ -63,21 +65,25 @@ var locationName = ["gedser", "rodby", "fleggaard_east", "fleggaard_west"];
 function SearchTable(){
 	var input, filter, table, tr, td, th, i, txtValue;
 	input = document.getElementById("search_input");
-	filter = input.value.toUpperCase().replace(" ", "");
-	table = document.getElementById("price_table");
-	tr = table.getElementsByTagName("tr");
-	for(i = 0; i < tr.length; i++){
-		td = tr[i].getElementsByTagName("td")[0];
-		if(td) {
-			txtValue = td.textContent || td.innerText;
-			if(txtValue.toUpperCase().replace(" ", "").indexOf(filter) > -1){
-				tr[i].style.display = "";
-			} else {
-				tr[i].style.display = "none";
-			}
+	filter = input.value.toUpperCase().replace(/ /g, "");
+	$('#price_table').children().each(function () {
+		if($(this).children()[0].innerText.toUpperCase().replace(/ /g, '').includes(filter)){
+			this.style.display = "";
+		} else {
+			this.style.display = "none";
 		}
-	}
+
+
+	})
+
 }
+/*
+if(txtValue.toUpperCase().replace(" ", "").indexOf(filter) > -1){
+	tempDiv.style.display = "";
+} else {
+	tempDiv.style.display = "none";
+}
+*/
 
 function CalculateTotal(){
 	var counter = 0;
@@ -155,7 +161,7 @@ function updateTravelPrice(obj){
 	}
 
 	var stringBuild = "";
-	stringBuild += "<h3>Det er billigst at køre til " + locationName[lowestIndex] + "</h3>\n";
+	stringBuild += "<h2 name = 'item_title'>Det er billigst at køre til " + locationName[lowestIndex] + "</h3>\n";
 	stringBuild += "<h3>Distancen er: " + obj['distance'][lowestIndex] + "km </h3>\n";
 	stringBuild += "<h3>Prisen for turen er: " + lowestPrice + "kr,-</h3>\n";
 	stringBuild += "<h3 id = 'gas_price' onclick = 'changeGasPrice()'>Benzinprisen er sat til: " + gasPrice + "</h3>";

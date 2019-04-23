@@ -7,24 +7,24 @@
 	<script type="text/javascript" language="javascript" src="jquery-3.3.1.js"></script>
 	<script type="text/javascript" src="Table.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="pagestyle.css">
 
 </head>
 <body>
 
-	<div class="header">
+	<div class="header ; center">
 		<a href="#default" class="name">Compare Tax Free</a>
 		<div class="header-right">
-			<a class="active" href="#home">Home</a>
-			<a href="#contact" >Kontakt</a>
+			<a class="active" href="#home">Statistik</a>
 			<a href = "webpages/about.html">Om</a>
 		</div>
 	</div>
 
-	<h1 class = "title" >Compare tax free</h1>
+	<h1 class = "title ; center" >Compare tax free</h1>
 
-	<div id = "travel_info">
-		<h2>StartPosition</h2>
+	<div class = "center" id = "travel_info">
+		<h2>Start Position</h2>
 		<input id = "post_code" type="number" placeholder="Postnummer">
 		<button type="button" onclick = "findDist()"></button>
 		<h3 id = "dist_info"></h3>
@@ -32,7 +32,7 @@
 		<div id = "travel_price"></div>
 	</div>
 
-	<div id = "calculate_price">
+	<div class = "center" id = "calculate_price">
 		<h2>See your price</h2>
 		<button onclick = "CalculateTotal()">Calculate Price</button>
 		<div id = "calculated_price">
@@ -41,21 +41,11 @@
 				</div>
 			</div>
 
-			<div id = "list_of_products">
+			<div class = "center" id = "list_of_products">
 				<h2>Products</h2>
 				<input type="text" id = "search_input" onkeyup="SearchTable()" placeholder = "Search for product">
 
-				<table id = "price_table">
-					<div class="item">
-						<h2 class = "item_title">Carlsberg</h2>
-						<h3 class = "item_danish_price">100 kroner</h3>
-						<h3 class = "item_border_price">120 kroner</h3>
-						<button class = "item_button" type="button">-</button>
-						<input class = "item_input" type="number" name="" value="0">
-						<button class ="item_button" type="button">+</button>
-						<button type="button">Add to Cart</button>
-					</div>
-				</table>
+				<div class = "items_container" id = "price_table"></div>
 
 			</div>
 
